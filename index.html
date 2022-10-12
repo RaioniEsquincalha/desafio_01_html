@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01 HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Blog do Iniciante em HTML</h1>
+    <hr>
+   
+    <h2>Apresentação</h2>
+    <p> 
+        Esta página foi idealizada como desafio proposto no curso de HTML da DIO no Bootcamp NTT DATA.
+        Tendo como objetivo a fixação do conteúdo aprendido durante o curso de introdução ao HTML
+        <br><br>
+        Abaixo você encontrará links sobre cada tag aprendida e um pequeno resumo sobre cada uma delas, além de exemplos para melhor aprendizado.
+    </p>
+
+
+    <h3>Lista de Tags</h3>
+    <ul>
+        <li><a href="#titulos_h1_h6">Tags h1 à h6 (A Hierarquia dos títulos) </a></li>
+        <li><a href="#paragrafos">Tag p (Parágrafos da página) </a></li>
+        <li><a href="#mark">Tag mark (destacando textos) </a></li>
+        <li><a href="#small">Tag small </a></li>
+        <li><a href="#italico">Tag i (transformando o texto em itálico</a></li>
+      
+    </ul>
+    <small><a href="#continue_estudando"> >> continue estudando << </a></small>
+    <br><br>
+    <hr>
+
+    <div id="titulos_h1_h6">
+        <h2>Títulos de cabeçalho da seção - de h1 à h6.</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+        <p>
+            Os títulos em uma página web servem para descrever brevemente o tópico da seção em que ele está presente.
+            <br>
+            Os títulos podem ser implementados em seis diferentes níveis semânticos , &lt;h1&gt; sendo o de maior importância e o &lt;h6&gt; com menor.
+            <br><br>
+            O peso semântico de cada título deve ser levado em consideração para facilitar a leitura, acessibilidade e um melhor resultado no buscadores de pesquisa como <a href="https://www.google.com/">Google</a> e <a href="https://www.bing.com/?cc=br">Bing</a>
+
+            <h4>Segue abaixo lista de títulos usando todos os níveis:</h4>
+
+            <h1>Este é um Título em &lt;h1&gt;</h1>
+            
+            <h2>Este é um Título em &lt;h2&gt;</h2>
+
+            <h3>Este é um Título em &lt;h3&gt;</h3>
+
+            <h4>Este é um Título em &lt;h4&gt;</h4>
+
+            <h5>Este é um Título em &lt;h5&gt;</h5>
+
+            <h6>Este é um Título em &lt;h6&gt;</h6>
+        </p>
+    </div>
+
+    <br><br>
+    <hr>
+    
+    <div id="paragrafos">
+        <h2>O Elemento Parágrafos</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+        <p>
+            O parágrafo é usado para agrupar um conteúdo relacionado.
+            o canteúdo é agrupado através da tag &lt;p&gt; conforme demostrado no exemplo a seguir:
+
+            <p>&lt;p&gt;Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto. <br>
+                Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.&lt;/p&gt;</p>
+            
+              <p>&lt;p&gt;Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto <br>
+                Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.&lt;/p&gt;</p>
+        </p>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <div id="mark">
+        <h2>O Elemento Mark</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+
+        <p>
+            O Elemento &lt;mark&gt; é utilizado para dar destaque em um texto, sequencia ou palavra que tenha uma maior relevância.
+        </p>
+        <p>
+            O conteúdo em destaque ficará com um efeito similar a uma marcação feita no papel com um marca texto.
+            <br>
+            Para destacar o conteúdo desejado, basta encapsular o texto com uma tag &lt;mark&gt;
+
+            <br><br>
+            Exemplo:
+            <br><br>
+            HTML: Gostariamos de destacar &lt;mark&gt;este pedaço do texto&lt;/mark&gt;
+            <br><br>
+            RESULTADO: Gostariamos de destacar <mark> este pedaço do texto</mark>
+        </p>
+    </div>
+
+    <br><br>
+    <hr>
+    <div id="small">
+        <h2>O Elemento para observações</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+        <p>
+            Este elemento é utilizadoo para inserir informações como direitos autorais ou textos legais.
+            <br>
+            Por padrão, ele é renderizado com um tamanho menor de fonte.
+            <br><br>
+            <mark>Exemplo:</mark>
+            <br>
+    
+            <p>
+                HTML: <br>
+                &lt;p&gt; Este texto foi retirado de um artigo sobre o crescimento da tecnologia no Brasil e as novas oportunidades que a área oferece para quem quer uma mudança de carreira&lt;/p&gt;
+
+                <hr>
+                &lt;p&gt;&lt;small&gt;Autor do Artigo e endereço para acesso do mesmo.&lt;/small&gt;&lt;/p&gt;
+            </p>
+            <br><br>
+            <mark>Resultado:</mark>
+            <br>
+            <p>Este texto foi retirado de um artigo sobre o crescimento da tecnologia no Brasil e as novas oportunidades que a área oferece para quem quer uma mudança de carreira</p>
+
+            <hr>
+            <p><small>Autor do Artigo e endereço para acesso do mesmo.</small></p>
+        </p>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <div id="italico">
+        <h2>Tag &lt;i&gt; Transformando texto em itálico</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+
+        <p>
+            O Elemento &lt;i&gt; é utilizado para destacar alguma parte do texto que é relevante por algum motivo. Tonando o conteúdo encapsulado pela tag &lt;i&gt; em itálico, dando uma leve inclinação no texto
+        </p>
+        <p>
+            <br><br>
+            <mark>Exemplo:</mark>
+            <br><br>
+            HTML: Gostariamos de destacar &lt;i&gt;este pedaço do texto&lt;/i&gt; e torna-lo itálico.
+            <br><br>
+            RESULTADO: Gostariamos de destacar <i>este pedaço do texto</i> e torna-lo itálico.
+        </p>
+    </div>
+
+    
+
+    <br><br>
+    <hr>
+
+    <div id="continue_estudando">
+        <h2>Continue estudando!</h2>
+        <small>
+            <a href="#inicio"> >> Voltar ao topo << </a>
+        </small>
+        
+        <p>
+            Para se tornar um bom programador, é de suma importancia o estudo constante e a busca por novas informações.
+            <br>
+            Por esse motivo, vou deixar dois links para lhe ajudar a aprofundar seus conhecimentos em HTML5. Confira abaixo:
+        </p>
+        <a href="https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf" target="_blank">PDF da W3C completo sobre o HTML 5</a>
+        <br>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element" target="_blank">Documentação do Mozilla</a>
+    </div>
+
+
+</body>
+</html>
